@@ -1,6 +1,7 @@
 # Welcome
 
-![](https://github.com/shivsharan10/Surreal-Funkies/blob/main/logo.png)
+
+<img src= "https://github.com/shivsharan10/Surreal-Funkies/blob/main/logo.png" width="200" height="200" />
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
