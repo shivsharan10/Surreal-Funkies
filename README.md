@@ -1,6 +1,6 @@
-# Welcome to HashLips 👄
+# Welcome
 
-![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/logo.png)
+![](https://github.com/shivsharan10/Surreal-Funkies/blob/main/logo.png)
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
