@@ -10,7 +10,7 @@
   "SYMBOL": "FP",
   "MAX_SUPPLY": 25,
   "WEI_COST": 40000000000000000,
-  "DISPLAY_COST": 0.075,
+  "DISPLAY_COST": 1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/assets/mumbai/0x5c2b70e65c3bbaf910315cb9411b469a3b69aae4",
