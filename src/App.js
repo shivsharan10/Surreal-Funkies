@@ -102,22 +102,22 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "0x1adbB9b0d14a3206E8BeCdAC83D5380Ef229f394",
+    SCAN_LINK: "https://mumbai.polygonscan.com/address/0x1adbB9b0d14a3206E8BeCdAC83D5380Ef229f394",
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
+      NAME: "Polygon_mumbai",
+      SYMBOL: "Matic",
+      ID: 80001,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
-    MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
-    SHOW_BACKGROUND: false,
+    NFT_NAME: "Surreal-Funkies",
+    SYMBOL: "SF",
+    MAX_SUPPLY: 50,
+    WEI_COST: 40000000000000000,
+    DISPLAY_COST: 0.4,
+    GAS_LIMIT: 285000,
+    MARKETPLACE: "Opeansea",
+    MARKETPLACE_LINK: "https://testnets.opensea.io/Surreal-Funkies",
+    SHOW_BACKGROUND: true,
   });
 
   const claimNFTs = () => {
@@ -387,7 +387,7 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            {CONFIG.NETWORK.NAME} Mumbai Testnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
